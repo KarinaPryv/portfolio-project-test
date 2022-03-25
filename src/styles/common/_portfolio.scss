@@ -1,0 +1,71 @@
+.portfolio {
+    padding-bottom: 145px;
+}
+
+.portfolio h5 {
+   margin-bottom: 48px;
+}
+
+.portfolio-content {
+    height: 100%;
+    position: relative;
+}
+
+.nav-point {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.nav-point img {
+    margin-right: 15px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    column-gap: 30px;
+    row-gap: 30px;
+    height: 403px;
+}
+
+.rectangle1 {
+    background-image: url(../images/Rectangle1.png);
+    background-size: cover;
+    background-position: center;
+    grid-column-start: 1;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+.rectangle2 {
+    background-image: url(../images/Rectangle2.png);
+    background-size: cover;
+    background-position: center;
+    grid-column-start: 8;
+    grid-column-end: 13;
+    grid-row-start: 1;
+    grid-row-end: 6;
+}
+
+.rectangle3 {
+    background-image: url(../images/Rectangle3.png);
+    background-size: cover;
+    background-position: center;
+    grid-column-start: 1;
+    grid-column-end: 8;
+    grid-row-start: 4;
+    grid-row-end: 9;
+}
+
+.rectangle4 {
+    background-image: url(../images/Rectangle4.png);
+    background-size: cover;
+    background-position: center;
+    grid-column-start: 8;
+    grid-column-end: 13;
+    grid-row-start: 6;
+    grid-row-end: 9;
+}
